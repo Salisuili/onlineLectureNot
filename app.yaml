@@ -1,0 +1,8 @@
+runtime: php74  # or php73, php72
+entrypoint: serve public/index.php  # Adjust according to your main entry point file
+
+env_variables:
+  TWILIO_ACCOUNT_SID: ''
+  TWILIO_AUTH_TOKEN: ''
+  GMAIL_USERNAME: ''
+  GMAIL_PASSWORD: ''
